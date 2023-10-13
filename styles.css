@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 50px;
+    color: yellow;
+}
+
+.header-div-1, .header-div-2 {
+    height: 100%;
+    float: left;
+}
+
+.header-div-1 {
+    width: 28%;
+    background-color: lightgray;
+}
+
+.separator {
+    width: 2%;
+    height: 100%;
+    float: left;
+}
+
+.header-div-2 {
+    width: 70%;
+    background-color: lightgray;
+}
+
+#content {
+    clear: both;
+    height: 300px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.red-sidebar {
+    height: 45%;
+    background-color: red;
+    margin-bottom: 5%;
+}
+
+.main-content {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color: green;
+    margin-left: 2%;
+}
+
+.footer {
+    clear: both;
+    height: 50px;
+    width: 70%;
+    float: right;
+    background-color: blue;
+}
