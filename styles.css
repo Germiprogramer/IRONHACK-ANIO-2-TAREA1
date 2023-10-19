@@ -74,10 +74,10 @@ h1 {
     font-size: 16px;
 }
 
-h1 span {
+h1:hover {
     text-transform: lowercase;
     text-decoration: none;
-    color:blueviolet;
+    color:violet;
 }
 
 .imagen {
